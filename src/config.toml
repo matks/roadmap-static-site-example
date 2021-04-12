@@ -1,0 +1,67 @@
+################################# Default configuration ###################
+baseURL = "https://prestashop.org/"
+# theme
+theme = "dot"
+# site title
+title = "PrestaShop Roadmap"
+# disable language
+disableLanguages = []
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+
+############################# Default Parameters ##########################
+[params]
+logo = ""
+logo_white = ""
+
+# customize color
+primary_color = "#02007e"
+body_color = "#f9f9f9"
+text_color = "#636363"
+text_color_dark = "#242738"
+white_color = "#ffffff"
+light_color = "#f8f9fa"
+
+# font family
+font_family = "montserrat" # Choose font family from : https://fonts.google.com/
+
+
+############################## social links ##############################
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "https://twitter.com/prestashop"
+  
+[[params.social]]
+icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+link = "https://github.com/prestashop/prestashop"
+  
+################################ Wording ######################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+copyright = "© Copyright 2007-2021 PrestaShop. All rights reserved."
+
+# banner
+[Languages.en.params.banner]
+title = "PrestaShop Roadmap"
+subtitle = "Find what we build"
+bg_image = "images/banner.jpg"
+
+
+
+################## navigation #################
+[[Languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "Versions"
+url = "version"
+weight = 2
+
+
+
